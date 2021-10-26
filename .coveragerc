@@ -1,0 +1,16 @@
+[run]
+source =
+    .
+    tests
+
+branch = True
+relative_files = True
+omit =
+
+[report]
+omit =
+exclude_lines =
+        pragma: no cover
+        def __repr__
+        raise NotImplementedError
+        pytest.skip\(
